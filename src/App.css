@@ -1,0 +1,550 @@
+body{
+    overflow: hidden;
+     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #F3F5F4;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face{
+  font-family: Mont;
+
+
+}
+@font-face {
+    font-family: MontBold;
+    src: url(./Fonts/Mont-HeavyDEMO.otf);
+}
+.Mobil{
+    display: none !important;
+}
+
+.NavBarNone{
+    display: none !important;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 15px dotted #2549c4;
+    border-top-color: transparent;
+    animation: circe 0.5s infinite linear;
+}
+@keyframes circe {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+.navbar {
+    padding-bottom: 0 !important;
+}
+.img-nav{
+    width: 100px;
+    height: auto;
+}
+/*.links{*/
+/*    font-size: 18px;*/
+/*    padding-right: 5rem ;*/
+/*    color:#6B45C5 !important;*/
+/*    display: flex;*/
+/*    */
+/*}*/
+
+
+.links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000 !important;
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 20px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    margin-top: 25px !important;
+}
+.topLink {
+    margin: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #99999f;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.topLink:hover{
+    color: #0dcaf0;
+    transition-duration: 0.5s;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 20px;
+    height: 60px;
+}
+.mobilLinks {
+    text-align: center;
+    margin: 0 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #036281;
+
+
+
+}
+.menu-icons {
+    padding: 3px 10px;
+    color: #036281;
+    transform: translateX(-5px);
+    transition: all .3s linear;
+
+}
+.menu-icons:hover {
+   color: #0dcaf0;
+}
+.fonts { font-size: 30px }
+
+.togIcon{
+    color: #533d8c;
+    border-radius: 10px;
+
+}
+/*.main-nav-active {*/
+
+/*    color: #d01266;*/
+/*    text-align: center;*/
+/*    border-radius: 5px 0 0 5px;*/
+/*    text-shadow: 0 0 5px #a4fcdf;*/
+
+
+/*}*/
+
+/*.main-nav-activeHeader{*/
+/*    color: #75bbd9;*/
+/*    padding: 0.3rem;*/
+/*    border-bottom: 1px solid#75bbd9;*/
+
+/*}*/
+
+
+/* SideBar*/
+
+
+.main-nav{
+    color: #808080 !important;
+   font-weight: bold !important;
+}
+
+.main-nav-activeSide{
+    transform: translateX(-8px);
+    background-color: #e2e9e5;
+    color: #302f2f !important;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+
+.side{
+    display: none;
+    position: relative !important;
+    transition: 0.2s linear;
+    background: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 4px rgba(210, 209, 209, 0.74);
+}
+.tt .sidenav---icon-bar---u1f02 {
+    background: #6B45C5 !important;
+    color: #6B45C5 !important;
+
+}
+.bod{
+    background-color: #f3f5f4 !important;
+}
+.main-nav{
+    color: #584d70;
+    font-weight: 500 ;
+    margin: 5px 10px;
+}
+.main-nav:hover{
+    color: #6f7fe0;
+    transition-duration: 0.5s;
+}
+.main-nav-active{
+    color: #150db3;
+    border-bottom: 2px solid #008ca5;
+    box-shadow: 0 0 2px grey;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.svg{
+    color:#7E62F4 !important;
+    transform: scale(1.2);
+
+}
+.HeLink{
+    transform: translateX(70px);
+}
+ 
+      /*  Sider */
+.sidenav---sidenav---_2tBP{
+    background-color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+.sidenav---sidenav-nav---3tvij .sidenav---sidenav-navitem---uwIJ-:hover{
+    background-color: #dbdcdd;
+    transition-duration: 0.6s;
+
+}
+
+
+.sidenav---sidenav-navitem---uwIJ-.sidenav---highlighted---oUx9u {
+    background-color: #c9f6f3;
+}
+.sidenav---navitem---9uL5T .sidenav---navicon---3gCRo{
+    background-color: #d3f8f4;
+}
+.sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-.sidenav---highlighted---oUx9u {
+    background-color: #e6efef;
+}
+
+/*  /Sider */
+
+.posikOne{
+
+    color: #898c8c;
+    transform: translateY(68px) translateX(-10px);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.posik {
+    transform: translateX(-25px) translateY(10px);
+    color: #898c8c;
+}
+
+
+   /* Create */
+.createInput{
+    width: 98% !important;
+    margin: 0 auto !important;
+    border: 1px solid #aea9a9;
+    padding: 0.8rem 10px !important;
+    border-radius: 10px !important;
+
+
+}
+.createInput::placeholder{
+    color: #b3b4ba !important;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif !important;
+
+
+}
+
+
+.loaders{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: relative;
+    top: 50%;
+    left: 48%;
+    border: 8px dashed #2f4154;
+    border-top-color: transparent;
+    animation: circe 0.9s infinite linear;
+}
+
+
+       /* ShopModal */
+.ModalShop{
+    margin-top: 100px !important;
+    background-color: #626566;
+}
+
+
+.Minus{
+    color: #ff5b5b;
+    border: 1px solid #fae8e8;
+    box-shadow: 0 0 2px #d4cbcb;
+    border-radius: 50%;
+   transform: scale(1.1);
+}
+.Minus:hover{
+    color: #e55252;
+    transform: scale(1.2);
+}
+
+      /* History */
+.Date{
+    width: 20%;
+    margin: 20px ;
+    padding: 10px;
+    color: grey;
+    border: 1px solid #dcdede;
+
+    border-radius: 8px;
+    outline: none;
+}
+
+.Date:focus{
+    border:1px solid #bcbce7;
+}
+.UzsHistor{
+    color: #c66868;
+}
+
+    /*  EditModal */
+
+.ModalFooter{
+
+}
+.CancelBtn{
+    text-align: right;
+    color: #58bebe !important;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: 500;
+    margin: 0 auto !important;
+}
+.SaveBtn{
+    width: 140px;
+    background-color: #BFF0EC !important;
+    color: #016972 !important;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 3px;
+    font-weight: 600;
+    margin: 0 auto !important;
+}
+
+
+/*      Mobil vers      */
+
+.mobIcon{
+    color: #0b4248;
+    transform: scale(1.3);
+
+}
+.creatIcon{
+    transform: scale(1.5) !important;
+    font-size: 30px;
+}
+
+.historIcon{
+    font-size: 19px;
+}
+
+.sc-hKgJUU:hover{
+    background-color: #e3edee !important;
+    border: none !important;
+}
+
+.imgIcon{
+    display: flex;
+}
+
+.AddBlue{
+    width: 220px;
+
+    transform: translateY(-20px);
+}
+.addPhoto{
+    font-size: 28px;
+    transform: translateY(60px) translateX(30px);
+}
+
+.select{
+
+    border-radius: 20px !important;
+}
+
+.ant-select-selector{
+    border-radius: 8px !important;
+}
+
+/*   Hostory data */
+
+.ant-picker{
+    border-radius: 8px !important;
+    width: 200px !important;
+}
+
+.imgBack{
+    height: 250px !important;
+}
+
+.FormImages{
+    width: 100%;
+    position: relative;
+}
+.xBtn{
+    width: 20px;
+    position: absolute;
+    left: 95%;
+    top: -10%;
+
+    border-radius: 10px;
+}
+
+.passForm::placeholder{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif !important;
+    padding-left: 5px;
+}
+
+
+/* <----------------------------- Css Media query -----------------------------> */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .loader{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        border: 3px dotted #0c63e4;
+    }
+    .imgBack{
+        height: 100px !important;
+    }
+    .NavBarNone{
+        display: flex !important;
+        font-size: 15px !important;
+        margin: 0 auto !important;
+    }
+
+   .posik {
+       transform: translateX(-20px) translateY(13px);
+       font-size: 12px;
+   }
+
+   .posikOne{
+       transform: translateY(60px) translateX(-8px);
+
+       font-size: 12px;
+   }
+   .Formbut{
+       width: 120px !important;
+       height: 35px !important;
+
+       padding: 0.5rem !important;
+       font-size: 15px;
+   }
+   .Minus{
+      transform: translateY(10px);
+       margin-left: 5px;
+   }
+   .Minus:hover{
+       transform: scale(1) !important;
+       color: #515050;
+   }
+
+    .Kol{
+        display: flex;
+    }
+
+    .Mobil{
+        display: flex !important;
+
+    }
+
+    .createInput{
+        padding: 0.4rem !important;
+    }
+
+    .AddBlue{
+        width: 80px;
+        margin-top: 30px;
+    }
+    .addPhoto{
+        font-size: 11px;
+        transform: translateX(0px) translateY(30px);
+    }
+    .Date{
+        background-color: white;
+    }
+
+}
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .addPhoto{
+        font-size: 24px;
+        transform: translateY(15px) translateX(15px);
+    }
+    .AddBlue{
+        margin-left: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:840px){
+    .addPhoto{
+        font-size: 24px;
+        transform: translateY(40px);
+    }
+    .AddBlue{
+        width: 160px;
+        margin-left: 10px;
+    }
+    .Date{
+        width: 45%;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .addPhoto{
+        font-size: 24px;
+        transform: translateY(60px) translateX(25px);
+    }
+    .AddBlue{
+        margin-left: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .addPhoto{
+        font-size: 26px;
+        transform: translateY(65px) translateX(15px);
+    }
+    .AddBlue{
+        margin-left: 15px;
+    }
+    .loader{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        border: 4px dashed #0c63e4;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
