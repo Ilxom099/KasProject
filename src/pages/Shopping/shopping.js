@@ -114,7 +114,7 @@ function Shopping({card,PlusDell,Dell,getShop,ClearProduct,count,load,SetPrice,p
 
                                 <TdPrice>{new Intl.NumberFormat().format(item.price) + ' - UZS'} </TdPrice>
                                 <Td className={'Kol'}>
-                                  <ItemPrice defaultValue={item.amount} onChange={(e)=>ChangePrice(e,item)} min={'0'} type={'number'} />
+                                  <ItemPrice value={item.amount} onChange={(e)=>ChangePrice(e,item)} min={'0'} type={'number'} />
                                   <div style={{background:'none',border:'none'}} onClick={()=>Minus(item)} className={'btn btn-secondary'}>
                                     <HighlightOffIcon className={'Minus'} />
                                   </div>
